@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Login</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body >
+
+    <!-- Home Code -->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body m-0" data-bs-theme="dark">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="Home.html">Tyre And Battery Shop.pk</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse pe-2 " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tyre
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Cars</a></li>
+                <li><a class="dropdown-item" href="#">Tractor</a></li>
+                <li><a class="dropdown-item" href="#">Truck</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Battery
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Vehical</a></li>
+                <li><a class="dropdown-item" href="#">UPS & solar System</a></li>
+                
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Other Items
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Used Tyres</a></li>
+                <li><a class="dropdown-item" href="#">Used Batteries</a></li>
+                
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search Item" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+           <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="signup.html">SignUp</a></li>
+                <li><a class="dropdown-item" href="#">Login</a></li>
+                
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"><i class="fa-regular fa-heart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
+           
+        </ul>
+            
+           
+        </div>
+      </div>
+    </nav>
+
+
+<!-- LOgin -->
+<div class="container-fluid log ">
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-12 ms-5 mt-5  " >
+			
+
+			<div class="card align-items-center login mb-4"   >
+				<h3 class="text-primary mt-3">Log In</h3>
+  <div class="card-body">
+    <form>
+  <div class="form-group mb-2">
+    <label for="exampleInputEmail1" class="mb-2">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group mb-2">
+    <label for="exampleInputPassword1" class="mb-2">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label mb-2" for="exampleCheck1">Remember Me</label>
+  </div>
+  <button type="submit" class="btn btn-primary " style="">Log In</button>
+</form>
+<hr> 
+  </div>
+  <h4 class="text-info">LogIn With</h4>
+  <div class="m-2" style="font-size: 3rem;">
+  	
+  	<i class="fa-brands  fa-facebook"></i>
+				<i class=" ms-2 fa-brands fa-google"></i>
+				<i class="ms-2 fa-brands fa-twitter"></i>
+  </div>
+  <div>
+  	<p class="d-inline">Don't have an account ? </p>
+  	<a href="signup.html"><h6 class="d-inline text-primary">Sign Up</h6></a>
+  	<p class="text-primary text-center">
+  		Forget Your Password ?
+  	</p>
+
+  </div>
+
+</div>
+		</div>
+	</div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<section class=" footer">
+	<div class="container-fluid ">
+		<div class="row ">
+			<div class="col-5 col-lg-3 col-sm-5 mb-3 mt-5 ms-5 ps-4">
+        <a class="d-inline-flex align-items-center  text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+          
+          <span class="mb-4" style="color: white">The Tyre And Battery Shop</span>
+        </a>
+        <ul class="list-unstyled ftt " style=" color: white;">
+          <li class="mb-2">More Than 100,000 Websites Hosted More Than 100,000 Websites Hosted More Than 100,000 Websites Hosted</li>
+          <li class="mb-2">Code licensed MIT, docs CC BY 3.0.</li>
+          
+        </ul>
+      </div>
+      
+      <div class="col-lg-2 col-md-2 col-sm-5 col-7 mb-3 mt-5 ms-5"  style="color: white">
+        <h5 class="mb-4">Help & Information</h5>
+        <ul class="list-unstyled"  style="color: white">
+          <li class="mb-2">Request a Call Back</li>
+          <li class="mb-2">Shop Locator</li>
+          
+          <li class="mb-2">FAQ & Help Center</li>
+          
+          <li class="mb-2">Track Shipment</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-5 col-7 mb-3 mt-5 ms-5" style="color: white">
+        <h5 class="mb-4">About Shop</h5>
+        <ul class="list-unstyled"  style="color: white">
+          <li class="mb-2">About Us</li>
+          <li class="mb-2">Privacy</li>
+          <li class="mb-2">Best Price Guarantee</li>
+          <li class="mb-2">Terms & Conditions</li>
+          <li class="mb-2">Returns & Refunds</li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-5 col-7 mb-3 mt-5 ms-5"  style="color: white">
+        <h5 class="mb-4"> Have a Question?</h5>
+        <ul class="list-unstyled"  style="color: white">
+           
+          <li > <i class='fas fa-location-arrow'></i> 203 Fake st. Mountain view, San Franscisco</li>
+          <li class="mb-2"> <i class='fas fa-phone'></i> +123 345 666</li>
+          <li class="mb-2"><i class='fas fa-comment-alt'></i> info@gmail.com</li>
+          
+        </ul>
+      </div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,264 @@
+.cr img{
+	height: 60vh;
+
+}
+
+.service img {
+	height: 250px;
+}
+.bran {
+	background-image: url("./img/brand.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 350vh;
+}
+.brand img {
+	height: 200px;
+}
+.brand .card {
+	width: 18rem;
+}
+
+.search {
+	background-image: url("./img/search.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+}
+.size .card {
+	width: 30rem;
+	height: 30rem;
+	background-color: darkblue;
+	opacity: .7
+}
+
+
+.sizehead {
+	font-weight: 600;
+
+}
+.inf input{
+	font-weight: 800;
+	border: 2px solid;
+	opacity: 2;
+}
+.pri button {
+	font-weight: 700;
+	opacity: 1;
+	border: 3px solid green;
+}
+
+.sname button {
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.footer {
+	background-color: #002244;
+}
+.ftt {
+	width: 15rem;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+	.logo a {
+		font-size: 10px;
+	}
+	.logo {
+		width: auto;
+	}
+}
+@media screen and (max-width: 850px) and (min-width: 415px) {
+	.logo a {
+		font-size: 15px;
+	}
+	.logo {
+		width: auto;
+	}
+}
+
+
+@media screen and (max-width: 345px) and (min-width: 270px) {
+	.search {
+	background-image: url("./img/search.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 180vh;
+}
+.size .card {
+	width: 17rem;
+	height: 30rem;
+	background-color: darkblue;
+	opacity: .7
+}
+
+
+}
+@media screen and (max-width: 400px) and (min-width: 346px) {
+	.search {
+	background-image: url("./img/search.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 180vh;
+}
+.size .card {
+	width: 20rem;
+	height: 30rem;
+	background-color: darkblue;
+	opacity: .7
+}
+
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 401px) {
+	.search {
+	background-image: url("./img/search.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 200vh;
+}
+.size .card {
+	width: 24rem;
+	height: 30rem;
+	background-color: darkblue;
+	opacity: .7
+}
+
+
+}
+
+
+
+/*Login page*/
+
+.log {
+	background-image: url("./img/login.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110vh;
+}
+
+.login {
+	margin-left: 280px;  
+	opacity: .6; 
+	font-weight: 700;
+	width: 28rem;
+
+}
+
+@media screen and (max-width: 414px) and (min-width: 270px) {
+	.login {
+		margin-left: 0px;
+		width: 16rem;
+	}
+}
+@media screen and (max-width: 556px) and (min-width: 415px) {
+	.login {
+		margin-left: 50px;
+		width: 20rem;
+		
+	}
+}
+@media screen and (max-width: 919px) and (min-width: 557px) {
+	.login {
+		margin-left: 170px;
+		width: 22rem;
+		
+	}
+}
+
+
+
+
+
+/*SignUp page*/
+
+.signup{
+	width: 28rem;
+	 margin-left: 280px;  
+	 opacity: .7; 
+	 font-weight: 700;
+	 background-color: darkblue;
+}
+.sign {
+	background-image: url("./img/signUp.png");
+	background-repeat: no-repeat;
+	background-size: 100% 140vh;
+}
+
+
+@media only screen and (max-width: 414px) {
+	.signup {
+		margin-left: 0px;
+		width: 16rem;
+	}
+}
+@media screen and (max-width: 556px) and (min-width: 415px) {
+	.signup {
+		margin-left: 50px;
+		width: 20rem;
+		
+	}
+}
+@media screen and (max-width: 919px) and (min-width: 557px) {
+	.signup {
+		margin-left: 170px;
+		width: 22rem;
+		
+	}
+}
+
+
+/* For Categories*/
+
+
+.select .card {
+	width: 18rem;
+
+}
+.select img {
+	height: 13rem;
+}
+
+.cate img {
+	height: 15rem;
+}
+.oil img{
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+
+.tyresize{
+	background-image: url("./img/tyre-sizes.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 120vh;
+}
+.batterysize{
+	background-image: url("./img/Battery Size.png");
+	background-repeat: no-repeat;
+	background-size: 100% 110vh;
+}
+.findbattery {
+	background-image: url("./img/Carosel 2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 110vh;
+}
+
+
+
+
+
+/* Buy Now page */
+
+
+.cart img{
+	height: 40rem;
+	width: 100rem;
+}
+
+.size1 {
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.cart .quantity  {
+	border-radius: 20px;
+}
